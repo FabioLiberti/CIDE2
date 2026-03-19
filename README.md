@@ -2,71 +2,71 @@
 
 **Protecting Patient Identity through Privacy-Preserving Deepfake Detection in Digital Health Platforms**
 
-> Extended Abstract presentato al CIDE 2025
+> Extended Abstract presented at CIDE 2025
 
-**Autori:** Raimondo Fanale, Fabio Liberti, Vittorio Stile
-**Affiliazione:** University of the Italian Chambers of Commerce (Universitas Mercatorum)
+**Authors:** Raimondo Fanale, Fabio Liberti, Vittorio Stile
+**Affiliation:** University of the Italian Chambers of Commerce (Universitas Mercatorum)
 
 ---
 
-## Obiettivi
+## Aims
 
-La telemedicina europea, cresciuta da 45 a 380 miliardi di euro nel post-pandemia, e' esposta a una vulnerabilita' critica: i **deepfake medici**. I tradizionali controlli via webcam e documenti d'identita' statici sono ormai facilmente aggirabili.
+European telemedicine, which grew from €45B to €380B post-pandemic, faces a critical vulnerability: **medical deepfakes**. Traditional webcam checks and static ID images are now easily bypassed by deepfake technology.
 
-Questo studio propone l'**Explainable Federated Learning (XFL)** come standard di verifica dell'identita' per i sistemi di telemedicina, con tre obiettivi:
+This study proposes **Explainable Federated Learning (XFL)** as the identity verification standard for telemedicine systems, with three goals:
 
-1. **Privacy** — Evidenziare le violazioni di privacy nei metodi centralizzati di rilevamento deepfake e dimostrare come il federated learning promuova la sovranita' dei dati
-2. **Regolamentazione** — Proporre framework normativi con tempistiche, standard di compliance e sanzioni per l'adozione obbligatoria di XFL
-3. **Analisi economica** — Dimostrare che l'implementazione proattiva e' meno costosa delle perdite per frode d'identita' medica
+1. **Privacy** — Highlight fundamental privacy breaches in centralized deepfake detection methods and demonstrate how federated approaches uniquely promote data sovereignty
+2. **Regulation** — Propose real regulatory frameworks with timetables, compliance standards, and penalties to mandate XFL adoption
+3. **Economic analysis** — Show that proactive implementation is typically cheaper than medical identity fraud losses
 
-## Metodologia
+## Methodology
 
-L'architettura tecnica si basa su una **topologia federata gerarchica a tre livelli**:
+The technical design uses a **three-level hierarchical federated topology**:
 
-| Livello | Componente | Funzione |
-|---------|-----------|----------|
-| Tier-1 | Grandi reti ospedaliere (>500 posti letto) | Potenza computazionale e dati demografici diversificati |
-| Tier-2 | Sistemi di telemedicina | Pattern di attacco dominio-specifici |
-| Tier-3 | Dispositivi edge | Verifica in tempo reale |
+| Tier | Component | Function |
+|------|-----------|----------|
+| Tier-1 | Large hospital networks (>500 beds) | Computational power and diverse patient demographics |
+| Tier-2 | Telemedicine systems | Domain-specific attack patterns |
+| Tier-3 | Edge devices | Real-time verification |
 
-**Aspetti chiave del design:**
+**Key design aspects:**
 
-- **Differential privacy** (epsilon = 1.5) per mantenere i dati biometrici entro i confini istituzionali
-- Mappatura sugli articoli GDPR 25 (Privacy-by-Design) e 32 (Sicurezza del Trattamento)
-- Classificazione dei rilevatori deepfake come software **Classe IIa** sotto il Medical Device Regulation (MDR)
-- Conformita' con l'**AI Act** europeo per applicazioni ad alto rischio
-- Modellazione economica basata su dati di mercato di 15 piattaforme di telehealth europee
+- **Differential privacy** (ε = 1.5) to keep biometric data inside institutional boundaries
+- Mapping to GDPR Articles 25 (Privacy-by-Design) and 32 (Security-of-Processing)
+- Classification of deepfake detectors as **Class IIa** software under the Medical Device Regulation (MDR)
+- Compliance with the European **AI Act** for high-risk applications
+- Economic modeling based on market data from 15 European telehealth platforms
 
-## Risultati Preliminari
+## Preliminary Results
 
-- Il **94%** dei sistemi di telemedicina europei non dispone di rilevamento deepfake; il restante 6% utilizza sistemi centralizzati potenzialmente in violazione del GDPR
-- Le tecniche federate rilevano i deepfake con un'accuratezza del **97.8%** (vs 99.2% dei sistemi centralizzati), ma garantiscono l'anonimato completo
-- Costo di implementazione: **2-3 milioni di euro** per piattaforma chiave (~0.5% del fatturato annuo)
-- Un singolo deepfake medico pubblico potrebbe costare oltre **500 milioni di euro** in danni diretti
+- **94%** of European telemedicine systems lack deepfake detection; the remaining 6% rely on centralized systems that may violate GDPR data minimization restrictions
+- Federated techniques detect deepfakes with **97.8%** accuracy (vs 99.2% for centralized settings), while providing total anonymity
+- Implementation cost: **€2–3 million** per key platform (~0.5% of annual revenue)
+- A single public medical deepfake could cost over **€500 million** in direct losses
 
-**Piano di adozione in tre fasi:**
+**Three-phase adoption plan:**
 
-| Fase | Periodo | Azione |
-|------|---------|--------|
-| 1 | 2025-2026 | Adozione volontaria con incentivi fiscali e riduzione della responsabilita' |
-| 2 | 2027 | Obbligo per le nuove piattaforme |
-| 3 | 2028+ | Obbligo universale con sanzioni per la non-conformita' |
+| Phase | Period | Action |
+|-------|--------|--------|
+| 1 | 2025–2026 | Voluntary adoption with tax advantages and reduced liability |
+| 2 | 2027 | Mandatory for new platforms |
+| 3 | 2028+ | Universal mandate with penalties for non-compliance |
 
-## Implicazioni
+## Implications
 
-Il sistema offre output interpretabili per tutti gli stakeholder:
+The system provides interpretable outputs for all stakeholders:
 
-- **Pazienti** — Spiegazioni in linguaggio naturale e supporto visivo
-- **Medici** — Dashboard con livelli di confidenza tecnica e pattern anomali
-- **Regolatori** — Registri tamper-proof per la verifica della compliance
+- **Patients** — Plain-language explanations and visual support
+- **Clinicians** — Dashboards showing technical confidence levels and anomalous patterns
+- **Regulators** — Tamper-proof records for compliance verification
 
-Lo studio evidenzia come l'aggiunta di livelli di verifica federata migliori sicurezza e privacy senza rendere obsoleti gli investimenti infrastrutturali esistenti.
+Adding federated verification levels improves security and privacy without making existing infrastructure investments obsolete. Deepfake detection without explainability could make healthcare access harder for the elderly and tech-illiterate.
 
 ## Keywords
 
 `Explainable AI` `Deepfake Detection` `Federated Learning` `Medical Privacy` `GDPR Compliance` `Digital Health Regulation`
 
-## Riferimenti Principali
+## Key References
 
 - Stile V. et al. — *Analysis of DeepFake Detection through Semi-Supervised Facial Attribute Labeling*, 2024
 - Liberti F. et al. — *Federated Learning in Dynamic and Heterogeneous Environments*, Applied Sciences, 2024
@@ -75,15 +75,15 @@ Lo studio evidenzia come l'aggiunta di livelli di verifica federata migliori sic
 - Ayorinde A.S. — *Explainable Deep Learning Models for Detecting Sophisticated Cyber-Enabled Financial Fraud*, 2025
 - Ndibe O.S. — *AI-Driven Forensic Systems for Real-Time Anomaly Detection and Threat Mitigation*, 2025
 
-## Struttura del Progetto
+## Project Structure
 
 ```
 CIDE2/
 ├── paper/
-│   └── P-C2_CIDE2025_FL_XAI_DeepFake.pdf   # Extended abstract completo
+│   └── P-C2_CIDE2025_FL_XAI_DeepFake.pdf   # Full extended abstract
 └── README.md
 ```
 
-## Licenza
+## License
 
-Per informazioni sulla licenza e sull'utilizzo, contattare gli autori.
+For licensing and usage information, please contact the authors.
